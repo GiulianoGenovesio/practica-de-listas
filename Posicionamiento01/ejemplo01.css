@@ -1,0 +1,16 @@
+.contenedor {
+    background-color: gray;
+      display: flex; /*al contenedor lo deja del tamaño de la página
+      display: inline-flex; ajusta al contenedor al tamaño de la cantidad de cajas
+      flex-direction: row; viene por defecto
+     flex-direction: row-reverse; 
+     flex-wrap: wrap;*/
+}
+.item {
+   background-color: blue;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
