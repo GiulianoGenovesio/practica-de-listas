@@ -7,7 +7,7 @@ body{
   justify-content: center;
   align-items: center;
   margin: 200px;
-}
+} 
 
 
 .contenedor {
@@ -16,24 +16,21 @@ body{
       /* display: inline-flex; ajusta al contenedor al tamaño de la cantidad de cajas */
       /* flex-direction: row; viene por defecto */
      /* flex-direction: row-reverse; */
-     flex: 25 px;
+     /* flex: 25 px;
      padding: 5px;
      display: inline-flex;
-     align-items: center;
-     justify-content: center;
-}
-.Contiene {
-  flex-direction: column;
+     align-items: stretch;
+     justify-content: center; */
 }
 
   
-.item4:hover {
+/* .item4:hover {
   border: 10px;
   color: red;
   cursor: pointer;
   background-color: blue;
   transform: scale(1) rotate(90deg);
-}
+} */
 .item1:hover{
   border: solid;
   color: red;
@@ -50,6 +47,8 @@ body{
 }
 
 .item3:hover {
+  position: relative;
+  float: left;
   cursor: pointer;
   background-color: orangered;
   border-radius: 10px;
