@@ -1,3 +1,7 @@
+body{
+  background-color: aquamarine;
+}
+
 .Padre{
   display: flex;
   justify-content: center;
@@ -16,41 +20,41 @@
      padding: 5px;
      display: inline-flex;
      align-items: center;
-
+     justify-content: center;
 }
-.item4{
-  border: solid;
+.Contiene {
+  flex-direction: column;
+}
+
+  
+.item4:hover {
+  border: 10px;
   color: red;
   cursor: pointer;
-}
-.item4:hover {
-  background-color: orangered;
+  background-color: blue;
   transform: scale(1) rotate(90deg);
 }
-.item1{
+.item1:hover{
   border: solid;
   color: red;
   cursor: pointer;
-}
-.item1:hover {
   transform: scale(1.5);
 }
-.item2{
+
+.item2:hover{
+  cursor: pointer;
   border: solid;
   color: blue;
-  cursor: pointer;
-}
-.item2:hover {
   background-color: yellowgreen;
   transform: scale(1.5);
 }
-.item3{
-  border: solid;
-  color: red;
-  cursor: pointer;
-}
+
 .item3:hover {
+  cursor: pointer;
   background-color: orangered;
   border-radius: 10px;
   transform: scale(1.5);
+  border: solid;
+  color: red;
 }
+
